@@ -8,9 +8,8 @@
     </ul>
   </nav>
 
-
-      <p>Copyright &copy; 2025</p>
     </footer>
+     <?php get_template_part('templates_part/modal-contact'); ?>
     <?php wp_footer(); ?>
   </body>
 </html>

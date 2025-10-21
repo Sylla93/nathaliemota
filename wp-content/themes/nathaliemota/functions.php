@@ -16,3 +16,16 @@ function add_Main_Nav() {
 }
 // Hook to the init action hook, run our navigation menu function
 add_action( 'init', 'add_Main_Nav' );
+
+
+// *************************************
+function theme_scripts() {
+    wp_enqueue_script(
+        'custom-js',
+        get_template_directory_uri() . '/js/script.js',
+        array('jquery'), // si vous utilisez jQuery
+        null,
+        true // charge dans le footer
+    );
+}
+add_action('wp_enqueue_scripts', 'theme_scripts');
