@@ -3,3 +3,80 @@ Theme Name: testnathalie
 Author: sylla
 Version: 1.0
 */
+
+ /* la couleur d’arrière-plan  */
+body {
+    background-color: #f9f9f9;
+}
+
+
+
+/* *****************MENU PRINCIPAL******************* */
+
+/* ==== HEADER FIX : empêche le contenu de passer au-dessus du menu ==== */
+.my-logo {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 20px;
+}
+
+
+.my-logo h1{
+padding-left: 10%;
+width: 100%;
+
+}
+
+
+.menu-menu-principal-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10%;
+}
+
+#menu-menu-principal {
+    display: flex;
+}
+#menu-menu-principal a{
+    margin: 0 30px;
+    color: black;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+        text-decoration: none;
+        text-transform: uppercase;
+        
+}
+
+
+
+/* *********************FOOTER************* */
+.footer-navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer-navigation ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    justify-content: space-around;
+    margin-left: 17%;
+    margin-right: 20%;
+  }
+
+  a {
+    text-transform: uppercase;
+    color: black;
+  }
